@@ -14,18 +14,6 @@ environment:
     BITS: 32
   matrix:
     - CONFIGURATION: Release
-      COMPILER: MinGW
-      PLATFORM: i686
-    - CONFIGURATION: Release
-      COMPILER: MinGW
-      PLATFORM: x86_64
-    - CONFIGURATION: Debug
-      COMPILER: MSVC
-      PLATFORM: Win32
-    - CONFIGURATION: Debug
-      COMPILER: MSVC
-      PLATFORM: x64
-    - CONFIGURATION: Release
       COMPILER: MSVC
       PLATFORM: Win32
     - CONFIGURATION: Release
