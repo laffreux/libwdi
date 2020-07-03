@@ -41,4 +41,6 @@ build_script:
 
 artifacts:
   - path: x64\Release\examples\wdi-simple.exe
+    name: libwdi_exe  
+  - path: Win32\Release\examples\wdi-simple.exe
     name: libwdi_exe
